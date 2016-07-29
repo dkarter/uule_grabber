@@ -1,0 +1,2 @@
+%{"csv": {:hex, :csv, "1.4.2", "cedb2f230171e6d10423aee8ce90512833b07e978747cc836b0f2c037fcf779d", [:mix], [{:parallel_stream, "~> 1.0.4", [hex: :parallel_stream, optional: false]}]},
+  "parallel_stream": {:hex, :parallel_stream, "1.0.5", "4c78d3e675f9eff885cbe252c89a8fc1d2fb803c0d03a914281e587834e09431", [:mix], []}}
