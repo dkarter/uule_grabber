@@ -7,8 +7,4 @@ defmodule UuleGrabber do
     "w+CAIQICI#{<<secret_key>>}#{encoded_city}"
     |> String.replace("=","")
   end
-
-  # def process_csv_locations do
-  #
-  # end
 end

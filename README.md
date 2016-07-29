@@ -28,5 +28,5 @@ TODO: not published yet
 
 # TODO
 
-- [ ] add csv reading ability to grab cannonical names from https://developers.google.com/adwords/api/docs/appendix/geotargeting?hl=fr&csw=1
+- [ ] [optional] add csv reading ability to grab cannonical names from https://developers.google.com/adwords/api/docs/appendix/geotargeting?hl=fr&csw=1
 - [ ] publish to hex
