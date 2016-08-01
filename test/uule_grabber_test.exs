@@ -1,5 +1,6 @@
 defmodule UuleGrabberTest do
   use ExUnit.Case
+
   doctest UuleGrabber
 
   test ".uule_for_city returns valid uule values" do

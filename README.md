@@ -2,13 +2,16 @@
 
 Generates uule codes for google to allow localized searches.
 
-Ported to Elixir based on the php implementation:
-https://github.com/512banque/uule-grabber
+Get the latest geo locations canonical names csv from:
+https://developers.google.com/adwords/api/docs/appendix/geotargeting
 
+
+To use the generated uule code, apply it to the Google query url.
+E.g.
+https://www.google.com/search?q=pizza&uule=w+CAIQICIeQ2hpY2FnbyxJbGxpbm9pcyxVbml0ZWQgU3RhdGVz
+will search for pizza in Chicago
 
 ## Installation
-
-TODO: not published yet
 
   1. Add `uule_grabber` to your list of dependencies in `mix.exs`:
 
@@ -26,7 +29,14 @@ TODO: not published yet
     end
     ```
 
-# TODO
+## Usage
 
-- [ ] [optional] add csv reading ability to grab cannonical names from https://developers.google.com/adwords/api/docs/appendix/geotargeting?hl=fr&csw=1
-- [ ] publish to hex
+```elixir
+UuleGrabber.uule_for_city("Chicago,Illinois,United States")
+# "w+CAIQICIeQ2hpY2FnbyxJbGxpbm9pcyxVbml0ZWQgU3RhdGVz"
+```
+
+## Credits
+
+Ported to Elixir based on the php implementation:
+https://github.com/512banque/uule-grabber
