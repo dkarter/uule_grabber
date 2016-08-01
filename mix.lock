@@ -1,2 +1,4 @@
 %{"csv": {:hex, :csv, "1.4.2", "cedb2f230171e6d10423aee8ce90512833b07e978747cc836b0f2c037fcf779d", [:mix], [{:parallel_stream, "~> 1.0.4", [hex: :parallel_stream, optional: false]}]},
+  "earmark": {:hex, :earmark, "1.0.1", "2c2cd903bfdc3de3f189bd9a8d4569a075b88a8981ded9a0d95672f6e2b63141", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.13.0", "aa2f8fe4c6136a2f7cfc0a7e06805f82530e91df00e2bff4b4362002b43ada65", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
   "parallel_stream": {:hex, :parallel_stream, "1.0.5", "4c78d3e675f9eff885cbe252c89a8fc1d2fb803c0d03a914281e587834e09431", [:mix], []}}
