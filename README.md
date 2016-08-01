@@ -7,9 +7,13 @@ https://developers.google.com/adwords/api/docs/appendix/geotargeting
 
 
 To use the generated uule code, apply it to the Google query url.
-E.g.
+
+E.g. To search for pizza in Chicago:
+
+```
 https://www.google.com/search?q=pizza&uule=w+CAIQICIeQ2hpY2FnbyxJbGxpbm9pcyxVbml0ZWQgU3RhdGVz
-will search for pizza in Chicago
+```
+
 
 ## Installation
 
