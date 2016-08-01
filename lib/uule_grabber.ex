@@ -2,6 +2,13 @@ defmodule UuleGrabber do
   @doc """
   Calculates the UULE value for a location's canonical name.
 
+  ## Input
+
+  This method accepts the canonical name for a geolocation as defined by Google.
+
+  Latest list of cannonical names can be found and downloaded from:
+  https://developers.google.com/adwords/api/docs/appendix/geotargeting
+
   ## Examples
 
       iex> UuleGrabber.uule_for_location("Chicago,Illinois,United States")
