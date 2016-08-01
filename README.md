@@ -36,7 +36,7 @@ https://www.google.com/search?q=pizza&uule=w+CAIQICIeQ2hpY2FnbyxJbGxpbm9pcyxVbml
 ## Usage
 
 ```elixir
-UuleGrabber.uule_for_city("Chicago,Illinois,United States")
+UuleGrabber.uule_for_location("Chicago,Illinois,United States")
 # "w+CAIQICIeQ2hpY2FnbyxJbGxpbm9pcyxVbml0ZWQgU3RhdGVz"
 ```
 
