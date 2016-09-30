@@ -1,6 +1,6 @@
 # UuleGrabber
 
-[![Build Status](https://travis-ci.org/dkarter/uule_grabber.svg?branch=master)](https://travis-ci.org/dkarter/uule_grabber)
+[![Build Status](https://travis-ci.org/dkarter/uule_grabber.svg?branch=master)](https://travis-ci.org/dkarter/uule_grabber) [![Hex Version](https://img.shields.io/hexpm/v/uule_grabber.svg)](https://hex.pm/packages/uule_grabber)
 
 Generates uule codes for google to allow localized searches.
 
