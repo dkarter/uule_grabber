@@ -1,5 +1,7 @@
 # UuleGrabber
 
+[![Build Status](https://travis-ci.org/dkarter/uule_grabber.svg?branch=master)](https://travis-ci.org/dkarter/uule_grabber)
+
 Generates uule codes for google to allow localized searches.
 
 Get the latest geo locations canonical names csv from:
