@@ -24,7 +24,7 @@ defmodule UuleGrabber.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:credo, "~> 0.5", only: [:dev, :test]},
+      {:credo, "~> 1.0", only: [:dev, :test]},
       {:dogma, "~> 0.1", only: :dev},
     ]
   end
